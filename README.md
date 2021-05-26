@@ -1,4 +1,4 @@
-# Frontend Mentor - Calculator app
+# Frontend Mentor - Calculator app with keyboard input
 
 ![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
 
