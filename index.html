@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <div class="theme-wrapper">
+        <h1>calc</h1>
+        <div id="theme-wrapper">
+          <div id="theme-index">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+          </div>
+          <div class="theme">
+            <form id="theme-slider">
+              <label for="slider">THEME</label>
+              <input type="range" name="theme" value="0" id="slider" min="1" max="3">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="output">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
+      </div>
+      <div class="buttons">
+        <div class="key-shadow"><button data-number>9</button></div>
+        <div class="key-shadow"><button data-number>8</button></div>
+        <div class="key-shadow"><button data-number>7</button></div>
+        <div class="reset-shadow"><button data-delete>DEL</button></div>
+        <div class="key-shadow"><button data-number>4</button></div>
+        <div class="key-shadow"><button data-number>5</button></div>
+        <div class="key-shadow"><button data-number>6</button></div>
+        <div class="key-shadow"><button data-operation>+</button></div>
+        <div class="key-shadow"><button data-number>1</button></div>
+        <div class="key-shadow"><button data-number>2</button></div>
+        <div class="key-shadow"><button data-number>3</button></div>
+        <div class="key-shadow"><button data-operation>-</button></div>
+        <div class="key-shadow"><button data-number>.</button></div>
+        <div class="key-shadow"><button data-number>0</button></div>
+        <div class="key-shadow"><button data-operation>/</button></div>
+        <div class="key-shadow"><button data-operation>x</button></div>
+        <div class="col-span reset-shadow"><button data-reset>RESET</button></div>
+        <div class="col-span equal-shadow"><button data-equals>=</button></div>
+      </div>
+    </section>
+  </main>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">KIRUBA</a>.
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
