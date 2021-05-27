@@ -107,6 +107,7 @@ button{
   .output .current-operand {
     color: var( --output-text-color);
     font-size: 2.5rem;
+    overflow-y:auto;
   }
 .buttons{
     display: grid;
@@ -192,7 +193,6 @@ input[type=range] {
     background: var(--key-equal-bg);
     cursor: pointer;
     -webkit-appearance: none;
-    margin-top: 3px;
   }
   input[type=range]::-moz-range-thumb {
     box-shadow: none;
