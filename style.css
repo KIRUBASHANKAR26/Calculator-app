@@ -110,7 +110,7 @@ button{
     scrollbar-width:thin;
   }
   .output .current-operand::-webkit-scrollbar {
-    width: 5px;
+    width: 8px;
   }
 .buttons{
     display: grid;
